@@ -15,7 +15,7 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 class AuthController extends Controller
 {
     // This method allows users to login
-    // This is new comment
+    // THis is empty because we will implement it in the next step
     public function login(LoginUserRequest $request)
     {
         $credentials = $request->validated();
